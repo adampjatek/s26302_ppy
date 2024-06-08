@@ -24,14 +24,17 @@ dzielenia przez 0 lub wpisaniu błędnego polecenia.
 6. Użytkownik powinien otrzymywać odpowiednie komunikaty o błędach.
 
 W projekcie zrealizowane zostały 4 klasy:
+
   Calculator - główna klasa odpowiadająca za wykonywanie operarcji, zarządzanie historią, oraz odpowiednie formatowanie napisu przekazanego przez użytkownika
     calculate - sprawdzenie wyrażenia, oblcizenie wyniku, wpis do historii
     factorial_finder - przygotowanie tekstu przekazanego przez użytkownika - obsługi znaku "!" jako silnia
     show_history - wyswietlenie operacji z historii
     select_from_history - wybór operacji z historii i wczytanie wartości x
+    
   History - klasa zarządzająca historią obliczeń
     add - dodaje wyrażenie do historii
     get_last - zwaraca historię ostatnich wyrażeń
+    
   ExpressionCalculator - klasa odpowiedzialna za oblcizanie wartości wyrażenia
     evaluate - metoda wykonująca obliczenia
     
